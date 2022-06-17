@@ -420,7 +420,7 @@ section {
 @media (max-width: 991px) {
   .hero {
     height: auto;
-    padding: 120px 0 60px 0;
+    padding: 60px 0 60px 0;
   }
   .hero .hero-img {
     text-align: center;
@@ -443,6 +443,29 @@ section {
   .hero .hero-img img {
     width: 100%;
   }
+  .footer .footer-top .footer-links ul li {
+    display: block !important;
+  }
+  .footer .footer-top .footer-info p {
+    text-align: center;
+  }
+  .social-links {
+    text-align: center;
+  }
+  .footer .footer-top .footer-info .logo {
+    display: block !important;
+    text-align: center;
+  }
+  .footer .footer-top .footer-info {
+    margin-bottom: 0px !important;
+    border-bottom: 1px dashed #d5d5d5;
+    padding-bottom: 20px;
+  }
+  .footer .footer-top .footer-links {
+    margin-bottom: 0px !important;
+    border-bottom: 1px dashed #d5d5d5;
+    padding-bottom: 20px;
+}
 }
 
 /*--------------------------------------------------------------
@@ -1995,6 +2018,10 @@ section {
 }
 .footer .footer-top .footer-links {
   margin-bottom: 30px;
+}
+.footer .footer-top .footer-contact a {
+  color: currentColor;
+  font-size: 13px;
 }
 .footer .footer-top .footer-links ul {
   list-style: none;

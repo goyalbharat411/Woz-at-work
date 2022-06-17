@@ -36,7 +36,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-      <a href="index.html" class="logo d-flex align-items-center">
+      <a href="#!" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
         <span>Woz At Work</span>
       </a>
@@ -59,7 +59,7 @@
   <section id="hero" class="hero d-flex align-items-center">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 d-flex flex-column justify-content-center">
+        <div class="col-lg-6 d-flex flex-column justify-content-center order-last order-lg-first">
           <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
           <h2 data-aos="fade-up" data-aos-delay="400">Secure the finest web designing and development services with us.
           </h2>
@@ -89,7 +89,7 @@
         </header>
 
         <div class="row">
-          <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
             <div class="serviceBox">
                 <div class="service-icon">
                     <span><i class="fa fa-globe"></i></span>
@@ -99,7 +99,7 @@
             </div>
         </div>
 
-         <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+         <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
           <div class="serviceBox orange">
               <div class="service-icon">
                   <span><i class="fa-solid fa-asterisk"></i></span>
@@ -108,7 +108,7 @@
               <p class="description">To be a leader & always strive for new advanced steps further.</p>
           </div>
       </div>
-       <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+       <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
           <div class="serviceBox pink">
               <div class="service-icon">
                   <span><i class="fa-solid fa-image"></i></span>
@@ -117,7 +117,7 @@
               <p class="description">Open & Regular communication to share valuable ideas & opinions with both clients & team.</p>
           </div>
       </div>
-       <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="800">
+       <div class="col-lg-3 col-md-6 mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="800">
           <div class="serviceBox blue">
               <div class="service-icon">
                   <span><i class="fa-brands fa-unity"></i></span>
@@ -517,7 +517,7 @@
             </div>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
+          <div class="col-lg-2 col-md-6 text-center text-md-start footer-links">
             <h4>Useful Links</h4>
             <ul>
               <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
@@ -527,14 +527,14 @@
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <div class="col-lg-3 col-md-6 footer-contact text-center text-md-start">
             <h4>Contact Us</h4>
             <p>
               A108 Adam Street <br>
               New York, NY 535022<br>
               United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              <a href="tel:+91-8302776530"><strong>Phone:</strong> +91-8302776530</a> <br>
+              <a href="mailto:sharmaapoorva7421@gmail.com"><strong>Email:</strong> sharmaapoorva7421@gmail.com</a><br>
             </p>
           </div>
 
