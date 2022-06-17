@@ -10,7 +10,7 @@
 	<meta name="yahooSeeker" content="index, follow" />
 	<meta name="msnbot" content="index, follow" />
 	<meta name="robots" content="index, follow" />
-	<link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.webp">
+	<link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon.ico">
 	<meta property="og:title" content="Woz At Work Website Development Company - iPhone & Android App Development">
 	<meta property="og:site_name" content="Woz At Work">
 	<meta property="og:url" content="">
@@ -20,14 +20,13 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+
   <!-- Vendor CSS Files -->
   <link href="assets/css/aos.css" rel="stylesheet">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/css/remixicon.css" rel="stylesheet">
-  <link href="assets/css/swiper-bundle.min.css" rel="stylesheet">
-
+  
   <!-- CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 </head>
@@ -37,12 +36,10 @@
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span>FlexStart</span>
+        <span>Woz At Work</span>
       </a>
-
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
@@ -60,12 +57,12 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="hero d-flex align-items-center">
-
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center">
           <h1 data-aos="fade-up">We offer modern solutions for growing your business</h1>
-          <h2 data-aos="fade-up" data-aos-delay="400">We are team of talented designers making websites with Bootstrap</h2>
+          <h2 data-aos="fade-up" data-aos-delay="400">Secure the finest web designing and development services with us.
+          </h2>
           <div data-aos="fade-up" data-aos-delay="600">
             <div class="text-center text-lg-start">
               <a href="#about" class="btn-get-started scrollto d-inline-flex align-items-center justify-content-center align-self-center">
@@ -80,49 +77,56 @@
         </div>
       </div>
     </div>
-
   </section><!-- End Hero -->
 
   <main id="main">
-
     <!-- ======= Start About Section ======= -->
     <section id="about" class="Start ">
-
       <div class="container" data-aos="fade-up">
-
         <header class="section-header">
-          <h2>Our Values</h2>
-          <p>Odit est perspiciatis laborum et dicta</p>
+          <h2>About Us</h2>
+          <p>Our Passion, Your Business</p>
         </header>
 
         <div class="row">
-
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="box">
-              <img src="assets/img/values-1.png" class="img-fluid" alt="">
-              <h3>Ad cupiditate sed est odio</h3>
-              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+          <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+            <div class="serviceBox">
+                <div class="service-icon">
+                    <span><i class="fa fa-globe"></i></span>
+                </div>
+                <h3 class="title">Excellence</h3>
+                <p class="description">Highly experienced team committed to delivering best services to achieve client satifaction & trust.</p>
             </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
-            <div class="box">
-              <img src="assets/img/values-2.png" class="img-fluid" alt="">
-              <h3>Voluptatem voluptatum alias</h3>
-              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
-            <div class="box">
-              <img src="assets/img/values-3.png" class="img-fluid" alt="">
-              <h3>Fugit cupiditate alias nobis.</h3>
-              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
-            </div>
-          </div>
-
         </div>
 
+         <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
+          <div class="serviceBox orange">
+              <div class="service-icon">
+                  <span><i class="fa-solid fa-asterisk"></i></span>
+              </div>
+              <h3 class="title">Innovation</h3>
+              <p class="description">To be a leader & always strive for new advanced steps further.</p>
+          </div>
+      </div>
+       <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
+          <div class="serviceBox pink">
+              <div class="service-icon">
+                  <span><i class="fa-solid fa-image"></i></span>
+              </div>
+              <h3 class="title">Transparency</h3>
+              <p class="description">Open & Regular communication to share valuable ideas & opinions with both clients & team.</p>
+          </div>
+      </div>
+       <div class="col-lg-3 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="800">
+          <div class="serviceBox blue">
+              <div class="service-icon">
+                  <span><i class="fa-brands fa-unity"></i></span>
+              </div>
+              <h3 class="title">Integrity</h3>
+              <p class="description">Highly skilled and dedicated developers for High Quality Output.</p>
+          </div>
+      </div>
+        </div>
       </div>
 
     </section>
@@ -130,108 +134,119 @@
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services">
-
       <div class="container" data-aos="fade-up">
-
         <header class="section-header">
           <h2>Services</h2>
-          <p>Veritatis et dolores facere numquam et praesentium</p>
+          <p>Know What Services We Provide</p>
         </header>
 
         <div class="row gy-4">
-
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-box blue">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Nesciunt Mete</h3>
-              <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <i class="fa-solid fa-crop icon"></i>
+              <h3>Website Designing</h3>
+              <p>Template Design, HTML, CSS & Mobile Responsive as per business nature
+                </p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-box orange">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Eosle Commodi</h3>
-              <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <i class="fa-solid fa-gear icon"></i>
+              <h3>Web Development</h3>
+              <p>AStatic, Blog, CMS, Classified, Portal & other Development with Database
+              </p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-box green">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Ledo Markt</h3>
-              <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <i class="fa-brands fa-wordpress icon"></i>
+              <h3>E-Commerce Development</h3>
+              <p>Ecommerce Web & Mobile app Development with Payment gateway</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-box red">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Asperiores Commodi</h3>
-              <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <i class="fa-solid fa-screwdriver-wrench icon"></i>
+              <h3>WEBSITE MAINTENANCE</h3>
+              <p>24*7 Support, Website Redesign, Website Support</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-box purple">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Velit Doloremque.</h3>
-              <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <i class="fa-brands fa-searchengin icon"></i>
+              <h3>SEO, SMO & PPC</h3>
+              <p>Digital Marketing Services with best Return on Investment
+              </p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
             <div class="service-box pink">
-              <i class="ri-discuss-line icon"></i>
-              <h3>Dolori Architecto</h3>
-              <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
-              <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+              <i class="fa-solid fa-draw-polygon icon"></i>
+              <h3>GRAPHICS DESIGN</h3>
+              <p>Logo, Banner, Website Template Design Services with creativity</p>
             </div>
           </div>
-
         </div>
-
       </div>
-
     </section><!-- End Services Section -->
 
 
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
-
       <div class="container" data-aos="fade-up">
-
         <header class="section-header">
           <h2>Portfolio</h2>
           <p>Check our latest work</p>
         </header>
-
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
               <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-wordpress">Wordpress</li>
+              <li data-filter=".filter-wix">Wix</li>
+              
             </ul>
           </div>
         </div>
 
         <div class="row gy-4 portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+              <img src="assets/img/1.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <h4>IndianWeddingCards</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 1"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://www.indianweddingcards.com/" target="_blank" title="IndianWeddingCards"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wordpress">
+            <div class="portfolio-wrap">
+              <img src="assets/img/6.jpg" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>IndianWeddingCards Blog</h4>
+                <div class="portfolio-links">
+                  <a href="https://www.indianweddingcards.com/blog/" target="_blank" title="IndianWeddingCards Blog"><i class="bi bi-link-45deg"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wix">
+            <div class="portfolio-wrap">
+              <img src="assets/img/8.webp" class="img-fluid" alt="">
+              <div class="portfolio-info">
+                <h4>Pretty and Paper</h4>
+                <div class="portfolio-links">
+                  <a href="https://www.prettynpaper.com/" target="_blank" title="Pretty and Paper"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
@@ -239,38 +254,23 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+              <img src="assets/img/2.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>123WeddingCards</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://www.123weddingcards.com/" target="_blank" title="123WeddingCards"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wordpress">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+              <img src="assets/img/4.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
+                <h4>Charu Papers</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 2"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 2"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://charupapers.com/" target="_blank" title="Charu Papers"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
@@ -278,73 +278,41 @@
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-web">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+              <img src="assets/img/3.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <h4>Techno Derivation</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 2"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://www.technoderivation.com/" target="_blank" title="TechnoDerivation"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wix">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+              <img src="assets/img/7.webp" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4>Paper Passionista</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="App 3"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://www.paperpassionista.com/" target="_blank" title="Paper Passionista"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-wordpress">
             <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+              <img src="assets/img/5.jpg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
+                <h4>123WeddingCards Blog</h4>
                 <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 1"><i class="bi bi-link-45deg"></i></a>
+                  <a href="https://www.123weddingcards.com/blog/" target="_blank" title="123WeddingCards Blog"><i class="bi bi-link-45deg"></i></a>
                 </div>
               </div>
             </div>
           </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Card 3"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfokio-lightbox" title="Web 3"><i class="bi bi-link-45deg"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
-
       </div>
-
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Testimonials Section ======= -->
@@ -452,45 +420,36 @@
 
     <!-- ======= Contact Section ======= -->
     <section id="contact" class="contact">
-
       <div class="container" data-aos="fade-up">
-
         <header class="section-header">
           <h2>Contact</h2>
-          <p>Contact Us</p>
+          <p>How Can We Help?</p>
         </header>
 
         <div class="row gy-4">
-
           <div class="col-lg-6">
-
             <div class="row gy-4">
-              <div class="col-md-6">
+              <div class="col-md-12">
                 <div class="info-box">
                   <i class="bi bi-geo-alt"></i>
                   <h3>Address</h3>
                   <p>A108 Adam Street,<br>New York, NY 535022</p>
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-lg-5 col-md-5">
                 <div class="info-box">
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
+                  <a href="tel:+91-9928006113">+91-9928006113</a> 
+                  <a href="tel:+91-8302776530">+91-8302776530</a> 
                 </div>
               </div>
-              <div class="col-md-6">
+              <div class="col-lg-7 col-md-7">
                 <div class="info-box">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box">
-                  <i class="bi bi-clock"></i>
-                  <h3>Open Hours</h3>
-                  <p>Monday - Friday<br>9:00AM - 05:00PM</p>
+                  <a href="mailto:kuldeeps@charupapers.com">kuldeeps@charupapers.com</a> 
+                  <a href="mailto:sharmaapoorva7421@gmail.com">sharmaapoorva7421@gmail.com</a> 
                 </div>
               </div>
             </div>
@@ -498,7 +457,7 @@
           </div>
 
           <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" class="php-email-form">
+            <form action="mail.php" method="post" class="php-email-form">
               <div class="row gy-4">
 
                 <div class="col-md-6">
@@ -546,10 +505,9 @@
           <div class="col-lg-7 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
               <img src="assets/img/logo.png" alt="">
-              <span>FlexStart</span>
+              <span>Woz At Work</span>
             </a>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.
-              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.
+            <p>"Woz At Work is a team of rich minded and experienced professionals working as software engineers and website developers. Multiple platforms and continuously working on it to provide our customers with great and valuable services. In this era of digitalization, every business is meant to have popularity in the market to come forward to meet its customers globally.
             </p>
             <div class="social-links mt-3">
               <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -586,7 +544,7 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
+        &copy; 2022 <strong><span>Woz At Work</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End Footer -->
@@ -594,7 +552,6 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- JS Files -->
-  <script src="assets/js/purecounter.js"></script>
   <script src="assets/js/aos.js"></script>
   <script src="assets/js/bootstrap.bundle.min.js"></script>
   <script src="assets/js/glightbox.min.js"></script>

@@ -158,11 +158,11 @@ section {
   line-height: 0;
 }
 .header .logo img {
-  max-height: 40px;
+  max-height: 30px;
   margin-right: 6px;
 }
 .header .logo span {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
@@ -686,6 +686,7 @@ section {
 .services .service-box h3 {
   color: #444444;
   font-weight: 700;
+  font-size: 20px;
 }
 .services .service-box .read-more {
   display: inline-flex;
@@ -952,6 +953,8 @@ section {
 }
 .portfolio .portfolio-wrap img {
   transition: 1s;
+  height: 270px;
+  width: 100%;
 }
 .portfolio .portfolio-wrap .portfolio-info {
   opacity: 0;
@@ -1354,6 +1357,7 @@ section {
   color: #444444;
   background: #fafbff;
   padding: 30px;
+  text-align: center;
 }
 .contact .info-box i {
   font-size: 38px;
@@ -1371,6 +1375,13 @@ section {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
+}
+.contact .info-box a {
+  padding: 0;
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+  display: block;
 }
 .contact .php-email-form {
   background: #fafbff;
@@ -1946,11 +1957,11 @@ section {
   margin-bottom: 15px;
 }
 .footer .footer-top .footer-info .logo img {
-  max-height: 40px;
+  max-height: 30px;
   margin-right: 6px;
 }
 .footer .footer-top .footer-info .logo span {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
@@ -2026,4 +2037,70 @@ section {
   text-align: center;
   font-size: 13px;
   color: #012970;
+}
+
+.serviceBox{
+  color: #666;
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+
+.serviceBox:before{
+  content: '';
+  border: 5px solid #2db6fa;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 40px;
+  bottom: -20px;
+  z-index: -1;
+}
+
+.serviceBox .service-icon{
+  color: #fff;
+  background-color: #2db6fa;
+  font-size: 30px;
+  line-height: 72px;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 20px;
+  border: 7px solid #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.serviceBox .title{
+  color: #2db6fa;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0 0 5px;
+}
+
+.serviceBox .description{
+  color: #666;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  line-height: 22px;
+  margin: 0;
+}
+
+.serviceBox.orange:before{ border-color: #f68c09; }
+.serviceBox.orange .service-icon{ background: #f68c09; }
+.serviceBox.orange .title{ color: #f68c09; }
+
+.serviceBox.pink:before{ border-color: #e9222c; }
+.serviceBox.pink .service-icon{ background: #e9222c; }
+.serviceBox.pink .title{ color: #e9222c; }
+
+.serviceBox.blue:before{ border-color: #4154f1; }
+.serviceBox.blue .service-icon{ background: #4154f1; }
+.serviceBox.blue .title{ color: #4154f1; }
+
+@media only screen and (max-width: 990px){
+  .serviceBox{ margin: 0 0 30px; }
 }
