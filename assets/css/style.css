@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Merriweather Sans', sans-serif;
   color: #444444;
 }
 
@@ -20,8 +20,8 @@ a:hover {
   text-decoration: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Nunito", sans-serif;
+h1, h2, h3, h4, h5, h6 { 
+  font-family: 'Playfair Display', serif;;
 }
 
 /*--------------------------------------------------------------
@@ -37,17 +37,17 @@ section {
   padding-bottom: 40px;
 }
 .section-header h2 {
-  font-size: 13px;
-  letter-spacing: 1px;
+  /* font-size: 28px; */
+  /* letter-spacing: 1px; */
   font-weight: 700;
   margin: 0;
   color: #4154f1;
   text-transform: uppercase;
 }
 .section-header p {
-  margin: 10px 0 0 0;
+  margin: 0px 0 0 0;
   padding: 0;
-  font-size: 38px;
+  font-size: 25px;
   line-height: 42px;
   font-weight: 700;
   color: #012970;
@@ -166,7 +166,6 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
 
@@ -194,9 +193,8 @@ section {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Nunito", sans-serif;
   font-size: 16px;
-  font-weight: 700;
+  /* font-weight: 700; */
   color: #013289;
   white-space: nowrap;
   transition: 0.3s;
@@ -379,11 +377,13 @@ section {
   font-size: 48px;
   font-weight: 700;
   color: #012970;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .hero h2 {
   color: #444444;
   margin: 15px 0 0 0;
   font-size: 26px;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .hero .btn-get-started {
   margin-top: 30px;
@@ -396,7 +396,6 @@ section {
   box-shadow: 0px 5px 30px rgba(65, 84, 241, 0.4);
 }
 .hero .btn-get-started span {
-  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -503,7 +502,6 @@ section {
   box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
 }
 .about .btn-read-more span {
-  font-family: "Nunito", sans-serif;
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 1px;
@@ -574,7 +572,6 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Nunito", sans-serif;
   font-size: 14px;
 }
 
@@ -707,9 +704,10 @@ section {
   transition: 0.3s;
 }
 .services .service-box h3 {
-  color: #444444;
+  color: #000;
   font-weight: 700;
   font-size: 20px;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .services .service-box .read-more {
   display: inline-flex;
@@ -725,17 +723,17 @@ section {
   font-size: 18px;
 }
 .services .service-box.blue {
-  border-bottom: 3px solid #2db6fa;
+  border-bottom: 3px solid #7c7c7c;
 }
 .services .service-box.blue .icon {
-  color: #2db6fa;
-  background: #dbf3fe;
+  color: #7c7c7c;
+  background: #7c7c7c29;
 }
 .services .service-box.blue .read-more {
-  color: #2db6fa;
+  color: #7c7c7c;
 }
 .services .service-box.blue:hover {
-  background: #2db6fa;
+  background: #7c7c7c;
 }
 .services .service-box.orange {
   border-bottom: 3px solid #f68c09;
@@ -874,7 +872,6 @@ section {
   transition: none;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Nunito", sans-serif;
   font-weight: 600;
   transition: 0.3s;
   border: 1px solid #4154f1;
@@ -1024,6 +1021,7 @@ section {
   font-size: 20px;
   color: #012970;
   font-weight: 700;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .portfolio .portfolio-wrap .portfolio-info p {
   color: #012970;
@@ -1392,6 +1390,7 @@ section {
   color: #012970;
   font-weight: 700;
   margin: 20px 0 10px 0;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .contact .info-box p {
   padding: 0;
@@ -1988,14 +1987,12 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #012970;
-  font-family: "Nunito", sans-serif;
   margin-top: 3px;
 }
 .footer .footer-top .footer-info p {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Nunito", sans-serif;
 }
 .footer .footer-top .social-links a {
   font-size: 20px;
@@ -2015,6 +2012,7 @@ section {
   text-transform: uppercase;
   position: relative;
   padding-bottom: 12px;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 .footer .footer-top .footer-links {
   margin-bottom: 30px;
@@ -2068,7 +2066,6 @@ section {
 
 .serviceBox{
   color: #666;
-  font-family: 'Nunito Sans', sans-serif;
   text-align: center;
   padding: 0 20px;
   position: relative;
@@ -2078,7 +2075,7 @@ section {
 
 .serviceBox:before{
   content: '';
-  border: 5px solid #2db6fa;
+  border: 2px solid #b5eecd;
   position: absolute;
   left: 0;
   right: 0;
@@ -2089,44 +2086,44 @@ section {
 
 .serviceBox .service-icon{
   color: #fff;
-  background-color: #2db6fa;
+  background-color: #b5eecd;
   font-size: 30px;
   line-height: 72px;
   width: 80px;
   height: 80px;
   margin: 0 auto 20px;
-  border: 7px solid #fff;
+  border: 4px solid #fff;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .serviceBox .title{
-  color: #2db6fa;
-  font-size: 25px;
-  font-weight: 700;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
   letter-spacing: 1px;
   text-transform: capitalize;
   margin: 0 0 5px;
+  font-family: 'Merriweather Sans', sans-serif;
 }
 
 .serviceBox .description{
   color: #666;
   font-size: 15px;
-  letter-spacing: 0.5px;
   line-height: 22px;
   margin: 0;
 }
 
-.serviceBox.orange:before{ border-color: #f68c09; }
-.serviceBox.orange .service-icon{ background: #f68c09; }
-.serviceBox.orange .title{ color: #f68c09; }
+.serviceBox.orange:before{ border-color: #b5bcc2; }
+.serviceBox.orange .service-icon{ background: #b5bcc2; }
+.serviceBox.orange .title{ color: #000; }
 
-.serviceBox.pink:before{ border-color: #e9222c; }
-.serviceBox.pink .service-icon{ background: #e9222c; }
-.serviceBox.pink .title{ color: #e9222c; }
+.serviceBox.pink:before{ border-color: #b7dbf3; }
+.serviceBox.pink .service-icon{ background: #b7dbf3; }
+.serviceBox.pink .title{ color: #000; }
 
-.serviceBox.blue:before{ border-color: #4154f1; }
-.serviceBox.blue .service-icon{ background: #4154f1; }
-.serviceBox.blue .title{ color: #4154f1; }
+.serviceBox.blue:before{ border-color: #ddc5e7; }
+.serviceBox.blue .service-icon{ background: #ddc5e7; }
+.serviceBox.blue .title{ color: #000; }
 
 @media only screen and (max-width: 990px){
   .serviceBox{ margin: 0 0 30px; }
